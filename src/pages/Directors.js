@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import NavBar from "../components/NavBar";
+import ErrorPage from "./ErrorPage";
 
 function Directors() {
 
@@ -34,5 +35,3 @@ useEffect(() => {
 };
 
 export default Directors;
-
-// This component should render on the /directors route. It should display the text Directors Page in an <h1>, and render a new <article> element for each director in our array of directors. The <article> should contain the director's name in an <h2> and a <ul> with a list of their movies.

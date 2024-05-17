@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import NavBar from "../components/NavBar"
 import { useParams } from "react-router-dom";
+import ErrorPage from "./ErrorPage";
 
 function Movie() {
 
